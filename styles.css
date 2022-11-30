@@ -57,7 +57,7 @@ body{
     top: 0px;
     background-color:#D74452;
     color:#DAD3B7;
-    font-size:20px;
+    font-size:40px;
 
 }
 
@@ -220,30 +220,33 @@ label[for="toggle"]{
 }
 
 @media only screen and (min-width:700px) {
-
+h1{
+    font-size: 75px;
+}
 #about{
     padding: 400px;
 }
 
 #about h2{
    
-    position: relative;
-    top: 400px;
+    position: absolute;
+    top: 665px;
     text-align: center;
     color:#D74452;
     padding: 10px;
     background-color: #DAD3B7;
     z-index: 9999;
-  
+    display: block;
 }
 
 #about p{
     color: #DAD3B7;
-    position: relative;
+    position: absolute;
     background-color:#D74452;
     padding: 10px;
     z-index: 9998;
-    top:400px;
+    top:700px;
+    display: block;
  }
 
  label[for="toggle"]{
