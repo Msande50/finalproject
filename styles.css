@@ -221,7 +221,7 @@ label[for="toggle"]{
 
 @media only screen and (min-width:700px) {
 h1{
-    font-size: 75px;
+    font-size: 50px;
 }
 #about{
     padding: 400px;
@@ -299,6 +299,13 @@ nav a:hover{
 }    
 }
 
+#events{
+    display:inline-grid;
+    grid-template-columns:50% 50%;
+    grid-row: auto auto;
+    width: 100%;
+}
+
 @media only screen and (min-width:1020px) {
 
 
@@ -308,6 +315,10 @@ nav a:hover{
 
 h1{
     font-size: 75px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 #about h2{
@@ -433,4 +444,18 @@ nav a:hover{
     width: 60px;
     color: black;
  }
+form{
+    display: block;
+    text-align: center;
+}
+form h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+form div{
+    display: inline-block;
+}
+textarea{
+    padding: 10px;
+}
 }
