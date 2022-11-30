@@ -88,7 +88,7 @@ p{
 }
     nav{
         position: absolute;
-        top: 10;
+        top: 0;
         right: 0;
     }
 
@@ -194,19 +194,240 @@ label[for="toggle"]{
     display: grid;
     font-family:'Comfortaa', cursive;
     font-weight: bold;
+    
+ }
+#events{
+    background-color:#2D838D;
+    color:#DAD3B7;
+}
+ #events div{
+    margin-bottom: 10px;
+ }
+ #fName{
+    border: 2px solid black;
  }
  .tickets{
     padding: 10px;
+    margin-bottom: 20px;
+    margin-top: -20px;
     border: solid black;
-    margin: 20px;
+    background-color: white;
+    font-family:'Comfortaa', cursive;
+    width: 60px;
+    color: black;
  }
 
 }
 
 @media only screen and (min-width:700px) {
+
+#about{
+    padding: 400px;
 }
 
+#about h2{
+   
+    position: relative;
+    top: 400px;
+    text-align: center;
+    color:#D74452;
+    padding: 10px;
+    background-color: #DAD3B7;
+    z-index: 9999;
+  
+}
+
+#about p{
+    color: #DAD3B7;
+    position: relative;
+    background-color:#D74452;
+    padding: 10px;
+    z-index: 9998;
+    top:400px;
+ }
+
+ label[for="toggle"]{
+    display: none;
+}
+
+ nav{
+    display: block;
+ }
+
+ nav ul{
+    display: block;
+    margin: auto;
+}
+nav li{
+    display: inline-block;
+    margin: auto;
+    padding: 5px;
+    background-color:#D74452;
+    position: relative;
+
+}
+nav a{
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: right;
+    background-color:#D74452;
+    color:#DAD3B7;
+    font-weight: bold;
+    margin: 0.5rem auto;
+    width: calc(100% - 2rem);
+    max-width: 350px;
+    
+}
+
+nav a:hover{ 
+    background-color: #DB8E36;
+    cursor: pointer; 
+    color:#DAD3B7; 
+} 
+#books{
+    display:inline-grid;
+    grid-template-columns: 50% 50%;
+    grid-row: auto auto;
+}
+
+#books section{
+    display: inline-grid;
+}    
+}
 
 @media only screen and (min-width:1020px) {
+
+
+#about{
+    padding: 400px;
 }
+
+h1{
+    font-size: 75px;
+}
+
+#about h2{
+   
+    position: relative;
+    top: 400px;
+    text-align: center;
+    color:#D74452;
+    padding: 10px;
+    background-color: #DAD3B7;
+    z-index: 9999;
+  
+}
+
+#about p{
+    color: #DAD3B7;
+    position: relative;
+    background-color:#D74452;
+    padding: 10px;
+    z-index: 9998;
+    top:400px;
+ }
+
+ label[for="toggle"]{
+    display: none;
+}
+
+ nav{
+    display: block;
+ }
+
+ nav ul{
+    display: block;
+    margin: auto;
+}
+nav li{
+    display: inline-block;
+    margin: auto;
+    padding: 5px;
+    background-color:#D74452;
+    position: relative;
+
+}
+nav a{
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: right;
+    background-color:#D74452;
+    color:#DAD3B7;
+    font-weight: bold;
+    margin: 0.5rem auto;
+    width: calc(100% - 2rem);
+    max-width: 350px;
     
+}
+
+nav a:hover{ 
+    background-color: #DB8E36;
+    cursor: pointer; 
+    color:#DAD3B7; 
+} 
+#books{
+    display:flex;
+    margin-top: 200px;
+}
+
+#books figure{
+    display: flex;
+}
+
+#books section{
+   
+    margin-right: 5px;
+}
+
+#books p{
+    text-align: center;
+}
+
+.books{
+   
+    position: relative;
+    top: 100px;
+    text-align: center;
+    color:#D74452;
+    padding: 10px;
+    background-color: #DAD3B7;
+    z-index: 9999;
+  
+}
+.booksp{
+   
+    position: relative;
+    top: 100px;
+    text-align: center;
+    color:#DAD3B7;
+    padding: 10px;
+    background-color:#D74452;
+    z-index: 9999;
+  
+}
+
+#events{
+    display:inline-grid;
+    grid-template-columns:50% 50%;
+    grid-row: auto auto;
+    width: 100%;
+}
+
+#books div{
+    display: inline-grid;
+} 
+
+.tickets{
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    margin-right: 50%;
+    border: solid black;
+    background-color: white;
+    font-family:'Comfortaa', cursive;
+    width: 60px;
+    color: black;
+ }
+}
