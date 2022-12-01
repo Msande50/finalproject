@@ -141,8 +141,8 @@ label[for="toggle"]{
 
 #about h2{
    
-        position: relative;
-        top: 150px;
+        position: absolute;
+        top: 300px;
         text-align: center;
         color:#D74452;
         padding: 10px;
@@ -155,17 +155,19 @@ label[for="toggle"]{
     background-image: url("images/Claire-Singara2.jpg");
     background-position: center;
     background-size: cover;
-    padding: 150px;
+    padding: 250px;
     display: block;
 
  }
  #about p{
     color: #DAD3B7;
-    position: relative;
+    position: absolute;
     background-color:#D74452;
     padding: 10px;
     z-index: 9998;
-    top:150px;
+    top:335px;
+    left: auto;
+    right: auto;
  }
  img{
     width: 80%;
