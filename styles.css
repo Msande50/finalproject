@@ -291,7 +291,6 @@ nav a:hover{
 #books{
     display:inline-grid;
     grid-template-columns: 50% 50%;
-    grid-row: auto auto;
 }
 
 #books section{
@@ -302,7 +301,6 @@ nav a:hover{
 #events{
     display:inline-grid;
     grid-template-columns:50% 50%;
-    grid-row: auto auto;
     width: 100%;
 }
 
@@ -425,7 +423,7 @@ nav a:hover{
 #events{
     display:inline-grid;
     grid-template-columns:50% 50%;
-    grid-row: auto auto;
+
     width: 100%;
 }
 
