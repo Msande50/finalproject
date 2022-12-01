@@ -57,7 +57,7 @@ body{
     top: 0px;
     background-color:#D74452;
     color:#DAD3B7;
-    font-size:40px;
+    font-size:30px;
 
 }
 
@@ -166,8 +166,7 @@ label[for="toggle"]{
     padding: 10px;
     z-index: 9998;
     top:335px;
-    left: auto;
-    right: auto;
+    display: inline-block;
  }
  img{
     width: 80%;
